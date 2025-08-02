@@ -62,7 +62,7 @@ const Login: React.FC = () => {
         </form>
 
         {/* Link to Sign Up */}
-        <p className="text-center mt-4">
+        <p className="text-center mt-4 text-red-500">
           Don’t have an account?{" "}
           <Link to="/signup" className="text-blue-500">
             Sign Up
